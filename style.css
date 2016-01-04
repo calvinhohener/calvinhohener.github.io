@@ -2,9 +2,37 @@ body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
   color: white;
-  background: url(background.jpg) repeat;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+h1 {
+	color:purple;
+	font-weight: 800;
+	text-decoration: underline;
+}
+/*use these marks to add comments to look at later*/
+h4 {
+	color:green;
+}
+/*after giving "summary" an ID*/
+#summary {
+	color:orange;
+}
+/*after giving skills and activities a class*/
+.unicorns {
+	color:blue;
+}
+h2, h3 {
+	border-color: rgba(121, 85, 72, 0.55);
+	border-style: ridge;
+	border-width: 10px;
+}
+#picture {
+	border-color: blue;
+	border-style: dotted;
+	border-width: 8px;
 }
