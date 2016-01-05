@@ -1,8 +1,8 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  color: white;
-  background: url(background.jpg) no-repeat;
+  color: #F50808;
+  background: url(musicbackground.png) no-repeat;
   background-size: cover;
 }
 #wrapper {
@@ -10,7 +10,7 @@ body {
   margin: 20px auto;
 }
 h1 {
-	color:purple;
+	color:#16CCD6;
 	font-weight: 800;
 	text-decoration: underline;
 }
@@ -27,12 +27,20 @@ h4 {
 	color:blue;
 }
 h2, h3 {
-	border-color: rgba(121, 85, 72, 0.55);
+	border-color: rgba(72, 121, 77, 0.55);
 	border-style: ridge;
-	border-width: 10px;
+	border-width: 5px;
 }
 #picture {
-	border-color: blue;
-	border-style: dotted;
+	border-color: #09E6F5;
+	border-style: groove;
 	border-width: 8px;
+}
+h5 {
+	color: orange;
+	font-weight: 700;
+	font-size: 18px;
+}
+p {
+	color:#23D84A;
 }
